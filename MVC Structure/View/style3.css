@@ -1,0 +1,68 @@
+@import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
+filedset{
+    position:fixed;
+   right:180px;
+   top:300px;
+}
+
+h1 
+{
+    text-align: center;
+}
+h2 {
+    text-align: left;
+}
+h3 {
+    width:auto;
+   position: fixed;
+    right: 200px;
+    left: 300px;
+   
+}
+li {
+    text-align: left;
+}
+	*{
+		margin:0px;
+		padding:0px;
+		box-sizing: border-box;
+	}
+	body{
+		font-family: sans-serif;
+		padding-top: 150px;
+		background:	#FFFF33;
+	}
+	.main{
+		margin: auto;
+		width: 50%;
+	}
+	.main input,button{
+		width:75%;
+		border:2px solid white;
+		border-right:0px;
+		font-size: 18px;
+		padding:12px;
+		background-color: transparent;
+		color:royalblue;
+	}
+	.main input:hover{
+		opacity: .8;
+	}
+	.main button{
+		width:25%;
+		background-color: #eee;
+		color:black;
+		transition: all 0.3s;
+		float: right;
+		border-left:0px;
+	}
+	.main button:hover{
+		opacity: .9;
+	}
+.logoutLblPos{
+   text-decoration-color: darkblue;
+   position:fixed;
+   right:40px;
+   top:25px;
+}
+
